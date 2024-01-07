@@ -200,3 +200,33 @@ main {
   text-align: center;
   margin: 50px;
 }
+
+/* footer style */
+
+footer {
+  display: flex;
+  gap: 100px;
+  background: #fff8f3;
+  padding: 130px 200px;
+}
+
+.footer-column {
+  width: 50%;
+}
+
+.social-links a {
+  margin-right: 25px;
+}
+
+.contact input[type="text"],
+.contact input[type="email"],
+textarea {
+  display: block;
+  margin-bottom: 25px;
+  padding: 18px 30px;
+  color: #474747;
+  border: 0;
+  border-radius: 5px;
+  background: white;
+  width: 100%;
+}
