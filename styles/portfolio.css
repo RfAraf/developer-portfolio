@@ -1,9 +1,13 @@
+* {
+  margin: 0;
+}
+
+/* common shared styles */
+
 body {
   font-family: "Dosis", sans-serif;
   font-family: "Open Sans", sans-serif;
 }
-
-/* nav related style */
 
 .text-primary {
   color: #fd6e0a;
@@ -19,10 +23,28 @@ body {
   padding: 18px 35px;
 }
 
+.section-title {
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.section-description {
+  color: #757575;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 30px; /* 166.667% */
+}
+
+/* nav related style */
+
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 200px;
 }
 
 .nav-title {
@@ -33,7 +55,6 @@ nav {
 
 /* 'nav' er por serial e 'ul'. tai '>' use kora jete pare.
     use na korleo apatoto problem hoyni. */
-
 nav > ul {
   display: flex;
   align-items: center;
@@ -47,4 +68,56 @@ nav li {
 nav a {
   text-decoration: none;
   color: #474747;
+}
+
+/* header related style */
+
+.header {
+  background-color: #fff8f3;
+  background: url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  padding-top: 50px;
+}
+
+.banner {
+  padding: 30px 30px 0px 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile-pic {
+  width: 500px;
+}
+
+.banner-greeting {
+  font-size: 45px;
+  color: #474747;
+  margin-bottom: 0;
+}
+
+.banner-title {
+  font-size: 80px;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.banner-description {
+  margin-bottom: 30px;
+}
+
+.banner-content {
+  max-width: 500px;
+}
+
+/* main related styles */
+
+/* about related styles */
+
+.about {
+  padding: 130px;
+  border-radius: 10px;
+  background: #fff8f3;
+  margin: 130px 230px;
 }
